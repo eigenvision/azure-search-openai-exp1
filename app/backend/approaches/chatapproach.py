@@ -19,9 +19,9 @@ class ChatApproach(Approach, ABC):
 
     follow_up_questions_prompt_content = """Generate 3 very brief follow-up questions that the user would likely ask next.
     Enclose the follow-up questions in double angle brackets. Example:
-    <<Are there exclusions for prescriptions?>>
-    <<Which pharmacies can be ordered from?>>
-    <<What is the limit for over-the-counter medication?>>
+    <<Is solar energy viable for data centers?>>
+    <<How much is Microsoft investing in data centers in France?>>
+    <<What are Scope 3 emissions?>>
     Do no repeat questions that have already been asked.
     Make sure the last question ends with ">>".
     """
